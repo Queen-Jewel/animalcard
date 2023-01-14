@@ -73,7 +73,7 @@ ul {
 
 ul, li {
     padding: 10px 0;
-    text-decoration: underline rgb(189, 186, 186);
+    text-decoration: underline 0.5px rgb(189, 186, 186);
 }
 
 @media screen and (max-width:700px) {
@@ -81,11 +81,27 @@ ul, li {
         display: block;
         margin: 40px auto;
         width: 300px;
+        height: 120vh;
     }
     img {
         height: 400px;
         width: 300px;
         
     }
+    .Text {
+        width: 100%;
+        padding-top: 20pxpx;
+        margin: auto;
+    }
+
+    ul {
+        margin: -5px;
+    }
    
+    ul, li {
+        padding: 10px 0;
+        list-style:circle;
+        text-decoration: none;
+        font-size: 15px;
+    }
 }
